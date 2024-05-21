@@ -1,8 +1,6 @@
 :root{
-    --color-primary: #ff702a;
-    --color-secundary: #fff;
-    --color-ternary: #1e1d2b;
-    --color-other: #000;
-    --color-box: #ffefe8;
-    --color-menu: #2c2b47;
+    --color-primary: #EA526F;
+    --color-font: #fff;
+    --color-font-secundary: #000; 
+    --color-shadow-transparent:0px 0px 10px rgba(0, 0, 0, 0.216)
 }
