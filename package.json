@@ -1,0 +1,15 @@
+{
+  "name": "proyectoweb-1",
+  "version": "1.0.0",
+  "description": "![img](storage/img/2024-03-15_10-14-48.gif) ![img](storage/img/2024-03-15_10-16-27.gif)",
+  "main": "main.js",
+  "scripts": {
+    "datos": "json-server -h http://172.16.101.146:5999 -p 5299"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  }
+}

@@ -249,7 +249,7 @@ section .title{
     width: 100%;
     margin-top: 5px;
 }
-section .content{
+section .content, section .contentC, section .contentP, section .contentT{
     width: 100%;
     height: 75vh;
     display: grid;
@@ -350,47 +350,31 @@ section .content{
     align-items: center;
     transition: .2s ease;
 }
-.box{
-    background-image: url(../storage/img/camiseta_argentina_pre.png);
-}
+
 .box:hover{
-    background-image: url(../storage/img/camiseta_argentina.png);
     background-size: contain;
     scale: 1.01;
     border: 1px solid var(--color-primary);
 }
-.box1{
-    background-image: url(../storage/img/camiseta_boca_pre.png);
-}
+
 .box1:hover{
-    background-image: url(../storage/img/camiseta_boca.png);
     background-size: contain;
     scale: 1.01;
     border: 1px solid var(--color-primary);
 }
-.box2{
-    background-image: url(../storage/img/camiseta_colombia_pre.png);
-}
+
 .box2:hover{
-    background-image: url(../storage/img/camiseta_colombia.png);
     background-size: contain;
     scale: 1.01;
     border: 1px solid var(--color-primary);
 }
-.box3{
-    background-image: url(../storage/img/camiseta_madrid_pre.png);
-}
+
 .box3:hover{
-    background-image: url(../storage/img/camiseta_madrid.png);
     background-size: contain;
     scale: 1.01;
     border: 1px solid var(--color-primary);
-}
-.box4{
-    background-image: url(../storage/img/camiseta_juve_pre.png);
 }
 .box4:hover{
-    background-image: url(../storage/img/camiseta_juve.png);
     background-size: contain;
     scale: 1.01;
     border: 1px solid var(--color-primary);
